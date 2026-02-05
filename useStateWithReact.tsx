@@ -9,3 +9,18 @@
  * The useStateWithReset hook should have the same return values as the useState hook, 
  * plus an additional function that resets the state to initialValue
 */
+
+/**
+ *
+export default function Component() {
+  const [value, setValue, resetValue] = useStateWithReset(10);
+
+  return (
+    <div>
+      <div>Value: {value}</div>
+      <input onChange={(e) => setValue(e.target.value)} />
+      <button onClick={resetValue}>reset</button>
+    </div>
+  );
+}
+*/
